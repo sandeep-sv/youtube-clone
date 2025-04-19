@@ -1,12 +1,55 @@
-# React + Vite
+YouTube Clone
+This is a YouTube Clone project built using React, Vite, and TailwindCSS.
+The app simulates the core functionality of YouTube, including video browsing, search functionality, video details, comments section, and suggested videos.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+Search for videos using YouTube API
 
-Currently, two official plugins are available:
+Display video results and detailed view
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Comments section for each video
 
-## Expanding the ESLint configuration
+Suggested videos on video watch page
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Debounced search input for better performance
+
+Search suggestions using Redux store
+
+Responsive design for mobile, tablet, and desktop
+
+Clean animations and smooth user experience
+
+Routing handled with React Router DOM
+
+Optimized build using Vite
+
+Modern UI built with TailwindCSS
+
+🛠️ Tech Stack
+React
+
+Vite
+
+TailwindCSS
+
+React Router DOM
+
+Redux Toolkit
+
+YouTube Data API v3
+
+🔑 API Key Setup
+This project uses YouTube Data API, and you need your own API key to make it work.
+
+1. Create a `.env` file in the root directory.
+2. Copy contents from `.env.example`.
+3. Replace `your_api_key_here` with your actual YouTube API key.
+
+📦 Installation and Setup Instructions
+- Clone the repository
+- Navigate into the project directory
+- Install the dependencies
+    > npm install
+- Create a .env file following the API Key Setup instructions.
+- Run the development server
+    > npm run dev
