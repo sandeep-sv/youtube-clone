@@ -1,0 +1,18 @@
+.slick-slide {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* Show slick arrows */
+.slick-prev,
+.slick-next {
+  z-index: 10;
+  display: block !important;
+}
+
+/* Customize arrow look */
+.slick-prev:before,
+.slick-next:before {
+  font-size: 30px;
+  color: black;
+}
