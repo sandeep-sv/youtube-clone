@@ -53,3 +53,6 @@ This project uses YouTube Data API, and you need your own API key to make it wor
 - Create a .env file following the API Key Setup instructions.
 - Run the development server
     > npm run dev
+
+📄 License
+This project is for educational and personal portfolio purposes.
